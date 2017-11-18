@@ -9,14 +9,14 @@
   #content .login-signup {
     padding: 0 0 25px; }
   #content .btn-success {
-    background: #cc4452;
+    background: #26c281;
     border-radius: 0;
-    border: 2px solid #cc4452;
+    border: 2px solid #26c281;
     webkit-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1); }
   #content .btn-success:hover, #content .btn-success:focus {
-    background: rgba(26, 161, 157, 0);
-    border: 2px solid #cc4452;
+    background: #26c281;
+    border: 2px solid #26c281;
     webkit-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
     color: white; }
@@ -74,7 +74,7 @@
     padding: 12px; }
   #content .nav-tab-holder .nav-tabs > li.active > a, #content .nav-tabs > li.active > a:hover, #content .nav-tabs > li.active > a:focus {
     color: #FFF;
-    background-color: #cc4452;
+    background-color: #26c281;
     border: 0;
     border-radius: 0;
     padding: 13px; }
@@ -95,7 +95,7 @@
   #content article[role="manufacturer"] h1 {
     font-size: 26px;
     font-weight: 300;
-    border-bottom: 1px solid #cc4452;
+    border-bottom: 1px solid #26c281;
     padding: 25px 15px; }
   #content article[role="manufacturer"] ul {
     padding: 0 25px; }
@@ -141,17 +141,13 @@
   #passengerAbout .passengerAboutBtn {
     margin-top: 10%; }
     #passengerAbout .passengerAboutBtn a {
-      background: #cc4452;
+      background: #26c281;
       border-radius: 0;
-      border: 2px solid #cc4452;
+      border: 2px solid #26c281;
       transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
       color: white;
       text-decoration: none;
       padding: 10px 15px; }
-      #passengerAbout .passengerAboutBtn a:hover {
-        border: 2px solid #cc4452;
-        background: transparent;
-        color: white; }
 
 .main {
   position: static;
@@ -626,17 +622,13 @@ li.dropdown-header.megaheader {
     color: white;
     margin-bottom: 10%; }
   #aboutUs .aboutUsInfo a {
-    background: #cc4452;
+    background: #26c281;
     border-radius: 0;
-    border: 2px solid #cc4452;
+    border: 2px solid #26c281;
     transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
     color: white;
     text-decoration: none;
     padding: 10px 15px; }
-    #aboutUs .aboutUsInfo a:hover {
-      border: 2px solid #cc4452;
-      background: transparent;
-      color: white; }
 
 #aboutUs .aboutUsImage {
   min-height: 350px; }
@@ -654,17 +646,13 @@ li.dropdown-header.megaheader {
   #driverAbout .driverAboutBtn {
     margin-top: 10%; }
     #driverAbout .driverAboutBtn a {
-      background: #cc4452;
+      background: #26c281;
       border-radius: 0;
-      border: 2px solid #cc4452;
+      border: 2px solid #26c281;
       transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
       color: white;
       text-decoration: none;
       padding: 10px 15px; }
-      #driverAbout .driverAboutBtn a:hover {
-        border: 2px solid #cc4452;
-        background: transparent;
-        color: white; }
 
 #contactUs {
   text-align: center;
