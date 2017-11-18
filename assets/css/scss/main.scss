@@ -24,4 +24,9 @@
     color: white;
     text-decoration: none;
     padding: 10px 15px;
+    &:hover{
+        background-color: #25c281;
+        border-radius: 0;
+        border: 0;
+    }
 }
