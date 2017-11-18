@@ -1,0 +1,25 @@
+{
+  "name": "pubcabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://salehvm@bitbucket.org/Emil_Gambarov/pubcabs.git"
+  },
+  "keywords": [
+    "pubcabs"
+  ],
+  "author": "saleh",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Emil_Gambarov/pubcabs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
