@@ -18,10 +18,20 @@
     padding: 0px;
 }
 .btnAll{
-    background-color: #25c281;
+    background-color: #333;
     border-radius: 0;
     border: 0;
     color: white;
     text-decoration: none;
     padding: 10px 15px;
+    &:hover{
+        background-color: #333;
+        border-radius: 0;
+        border: 0;
+        color: white;
+        text-decoration: none;
+    }
+    &-mod{
+        margin-top: 20px;
+    }
 }
