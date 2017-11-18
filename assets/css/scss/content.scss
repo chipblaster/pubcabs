@@ -15,7 +15,26 @@
         padding: 0 0 25px;
       }
       
-    
+      .btn-success {
+        background:#26c281;
+        border-radius:0;
+        border: 2px solid #26c281;
+        webkit-transition: all 400ms cubic-bezier(.4,0,.2,1);
+        transition: all 400ms cubic-bezier(.4,0,.2,1);
+      }
+      
+      .btn-success:hover,.btn-success:focus {
+        background:#26c281;
+        border: 2px solid #26c281;
+        webkit-transition: all 400ms cubic-bezier(.4,0,.2,1);
+        transition: all 400ms cubic-bezier(.4,0,.2,1);
+        color:white;
+      }
+      
+      a {
+        color: #23bab5;
+      }
+
       
    
   
@@ -120,7 +139,7 @@
       article[role="manufacturer"] h1 {
         font-size: 26px;
         font-weight: 300;
-        border-bottom: 1px solid #cc4452;
+        border-bottom: 1px solid #26c281;
         padding: 25px 15px;
       }
       

@@ -171,7 +171,7 @@ h2{
   
 /* customize nav style */
 .navbar-custom {
-    background-color: #2e2e2e;
+    background-color: #26c281;
 	font-weight:700;
     text-transform:uppercase;
     border-width:0;
@@ -493,4 +493,9 @@ li.dropdown-header.megaheader {
 	.navbar-nav .open .dropdown-menu .dropdown-header{
 		color:#fff;
 	}
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background: #333;
 }

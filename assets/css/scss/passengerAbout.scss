@@ -12,5 +12,17 @@
     .passengerAboutBtn{
         margin-top: 10%;
 
+        
+  a{
+    background: #26c281;
+    border-radius: 0;
+    border: 2px solid #26c281;
+    transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+  }
+
     }
 }
