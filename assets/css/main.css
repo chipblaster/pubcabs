@@ -66,7 +66,7 @@
     float: none;
     padding: 0; }
   #content .nav-tab-holder .nav-tabs > li > a {
-    background: black;
+    background: #333;
     color: white;
     margin: 0;
     font-size: 13px;
@@ -133,18 +133,18 @@
 
 #passengerAbout {
   box-sizing: border-box;
-  padding: 35px;
-  line-height: 2; }
+  padding: 15px 11px 50px 15px;
+  line-height: 2;
+  background-repeat: no-repeat;
+  background-size: cover; }
   #passengerAbout .passengerAboutInfo h3 {
     color: white;
     font-size: 1.6em; }
   #passengerAbout .passengerAboutBtn {
     margin-top: 10%; }
     #passengerAbout .passengerAboutBtn a {
-      background: #26c281;
+      background: #333;
       border-radius: 0;
-      border: 2px solid #26c281;
-      transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
       color: white;
       text-decoration: none;
       padding: 10px 15px; }
@@ -303,7 +303,7 @@ h2 {
   color: #ddd; }
 
 .navbar-custom .navbar-nav li > a:hover, .navbar-nav li .open {
-  background-color: #ff0000;
+  background-color: #333;
   height: 15%; }
 
 .navbar-custom .navbar-nav li > .navbar-custom .navbar-nav .active a {
@@ -567,7 +567,7 @@ footer li i:hover, footer li a:hover {
   cursor: not-allowed; }
 
 li.dropdown-header.megaheader {
-  color: #ff3300;
+  color: #333;
   font-size: 100%;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
@@ -589,6 +589,12 @@ li.dropdown-header.megaheader {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
   background: #333; }
+
+.nav-tabs > li > a {
+  border-radius: 0; }
+
+.nav-tabs > li > a:hover {
+  border: 1px solid #333; }
 
 @media (min-width: 768px) {
   .navbar-collapse {
@@ -626,7 +632,9 @@ li.dropdown-header.megaheader {
     margin-bottom: 10%; }
 
 #aboutUs .aboutUsImage {
-  min-height: 350px; }
+  min-height: 350px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; }
 
 #aboutUs .nopadding {
   padding: 0 !important; }
@@ -634,7 +642,9 @@ li.dropdown-header.megaheader {
 #driverAbout {
   box-sizing: border-box;
   padding: 35px;
-  line-height: 2; }
+  line-height: 2;
+  background-repeat: no-repeat;
+  background-size: cover; }
   #driverAbout .driverAboutInfo h3 {
     color: white;
     font-size: 1.6em; }
@@ -812,7 +822,10 @@ li.dropdown-header.megaheader {
   border: 0;
   color: white;
   text-decoration: none;
-  padding: 10px 15px; }
+  padding: 10px 15px;
+  font-size: 14px !important;
+  font-family: poppins;
+  font-weight: 200; }
   .btnAll:hover {
     background-color: #333;
     border-radius: 0;
