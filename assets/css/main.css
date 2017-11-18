@@ -282,8 +282,7 @@ h2 {
   position: fixed;
   top: 0;
   z-index: 100;
-  -webkit-transition: all .6s ease-in-out;
-  height: 6%; }
+  -webkit-transition: all .6s ease-in-out; }
 
 .social li img {
   width: 50%;
