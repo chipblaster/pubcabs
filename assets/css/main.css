@@ -127,9 +127,13 @@
 
 #logo {
   height: 70px; }
-  #logo .logo {
-    color: #cc4452;
-    text-align: center; }
+  #logo a {
+    display: inline-block;
+    margin-left: 46%;
+    text-decoration: none; }
+    #logo a .logo {
+      color: #cc4452;
+      text-align: center; }
 
 #passengerAbout {
   box-sizing: border-box;
