@@ -845,3 +845,14 @@ li.dropdown-header.megaheader {
     text-decoration: none; }
   .btnAll-mod {
     margin-top: 20px; }
+
+.no_1 {
+  background: #ffd800;
+  color: #333; }
+  .no_1:hover {
+    background: #333;
+    color: #ffd800; }
+
+.no_2 {
+  background: #26c281;
+  color: #fff; }
