@@ -2,10 +2,12 @@
     padding: 0px;
 }
 .btnAll{
-    background-color: #333;
+    background-color: #ffd800;
+    color: #333;
     border-radius: 0;
     border: 0;
-    color: white;
+    font-weight: 300;
+    font-family: Poppins;
     text-decoration: none;
     padding: 10px 15px;
     font-size: 14px !important;
@@ -16,9 +18,9 @@
         background-color: #333;
         border-radius: 0;
         border: 0;
-        color: white;
+        color: #ffd800;
         text-decoration: none;
-    }
+        }
     &-mod{
         margin-top: 20px;
     }
